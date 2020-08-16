@@ -18,13 +18,13 @@
         android:hint="@string/edit_hint"
         android:inputType="textPersonName"
         android:text="@string/edit_message"
-        app:layout_constraintEnd_toStartOf="@+id/submitText"
+        app:layout_constraintEnd_toStartOf="@+id/submitButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/submitText"
+        android:id="@+id/submitButton"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
