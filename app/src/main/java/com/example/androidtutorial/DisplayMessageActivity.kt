@@ -13,7 +13,7 @@ class DisplayMessageActivity : AppCompatActivity() {
         val message = intent.getStringExtra(EXTRA_MESSAGE)
 
         // Capture the layout's TextView and set the string as its text
-        findViewById<TextView>(R.id.textView).apply {
+        findViewById<TextView>(R.id.displayText).apply {
             text = message
         }
     }
