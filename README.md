@@ -1,4 +1,4 @@
-# MyApplication
+# AndroidTutorial
 
 Another go-around at Android development.
 
