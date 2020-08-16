@@ -22,6 +22,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    // Stop language level toggle in .idea/misc.xml
+    // https://stackoverflow.com/questions/32878888/android-idea-misc-xmls-languagelevel-tag-keeps-changing-jdks
+    // https://stackoverflow.com/questions/51031969/why-does-android-studio-keep-toggling-languagelevel
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
